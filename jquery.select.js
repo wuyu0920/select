@@ -195,6 +195,7 @@
 $(function () {
     $("select.hw-select").each(function () {
         _this = $(this);
+		//多选
         if (typeof _this.attr("customize") == "undefined" && _this.attr("multiple")) {
             _this.select({
                 multiple: true
