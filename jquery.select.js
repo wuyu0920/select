@@ -192,6 +192,7 @@
     });
 })(jQuery);
 //页面加载完进行调用--
+caodan
 $(function () {
     $("select.hw-select").each(function () {
         _this = $(this);
